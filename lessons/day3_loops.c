@@ -15,8 +15,8 @@ int main() {
         printf("Guess the number: ");
         scanf("%d", &guess);
 
-        if (guess != magicNumber) {
-            printf("Wrong! Try again.\n");
+        if (guess != magicNumber) { // ถ้าทายผิด
+            printf("Wrong! Try again.\n"); // แจ้งว่าทายผิด
         }
     }
 

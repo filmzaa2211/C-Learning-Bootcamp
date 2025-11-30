@@ -47,3 +47,27 @@
 - **Advanced Functions:** Understanding the difference between Pass by Value and Pass by Reference.
 - **Logic:** Sending memory addresses to functions to modify original variables.
 - **Project:** Implemented a `swap()` function using pointers.
+
+### Day 9: Pointers & Functions (Pass by Reference)
+- **Concept:** Solved the "Pass by Value" limitation using Pointers.
+- **Technique:** Sending memory addresses (`&var`) to functions to modify original data.
+- **Project:** Created a `swap()` function to exchange values of two variables directly in memory.
+
+### Day 10: Environment Recovery & Setup
+- **Maintenance:** Re-installed GCC Compiler, Git, and VS Code after OS re-installation.
+- **Git Troubleshooting:** Fixed "Dubious Ownership" errors and restored Git configuration.
+
+### Day 11: Pointers & Arrays Relationship
+- **Insight:** Learned that an Array name is effectively a Pointer to its first element.
+- **Technique:** Used **Pointer Arithmetic** (`ptr + i`) to traverse arrays instead of using index brackets `[]`.
+- **Practice:** Implemented loops using pointer increment logic (`ptr++`).
+
+### Day 12: Strings (Character Arrays)
+- **Concept:** Strings in C are arrays of characters terminated by a **Null Terminator** (`\0`).
+- **Input Handling:** Switched from `scanf` (which stops at spaces) to `fgets` for reading full sentences.
+- **String Manipulation:**
+  - Sanitizing input by removing trailing newlines (`\n`) using `strcspn`.
+  - Using `<string.h>` library functions: `strlen` (length) and `strcpy` (copy).
+- **Algorithms:**
+  - **Vowel Detective:** Counting specific characters (vowels) in a string.
+  - **Mirror World:** Reversing a string using a backward loop.
